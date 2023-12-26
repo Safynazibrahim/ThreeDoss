@@ -1,0 +1,116 @@
+/* Media Query */
+
+@media screen and (max-width: 700px) {
+    #home .container {
+    width: 100%;
+    }
+    #home .container img {
+    width: 100%;
+    }
+    .sidenav span {
+    right: 0px;
+    padding: 10px;
+    font-size: 12px;
+    
+    }
+    
+    #category .container {
+    width: 80%;
+    }
+    #category .catinfo {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    #contact .container {
+    width: 80%;
+    }
+    #contact .container form {
+    width: 100%;
+    }
+    #footer .container {
+    width: 80%;
+    }
+    #footer .container .footerinfo {
+    width: 100%;
+    }
+    #footer .container .logo {
+    width: 50%;
+    }
+    #footer .container .footerinfo2 {
+    width: 100%;
+    }
+    #footer .footerinfo2 #emailaddress {
+    width: 65%;
+    }
+    #footer .footerinfo2 .btn {
+    width: 30%;
+    }
+    #footer .container .footerinfo3 {
+    width: 100%;
+    }
+    }
+    
+    
+    
+    @media screen and (min-width:700px) and (max-width:1200px){
+    
+    .sidenav span{
+    right: 0px;
+    padding: 10px;
+    font-size: 12;
+    }
+    #category .container {
+    width: 50%;
+    }
+    #category .catinfo {
+    width: 100%;
+    margin-bottom: 40px;
+    }
+    #contact .container {
+    width: 50%;
+    }
+    #contact .container form {
+    width: 100%;
+    }
+    #footer .container {
+    width: 50%;
+    }
+    #footer .container .footerinfo {
+    width: 100%;
+    }
+    #footer .container .logo {
+    width: 80%;
+    }
+    #footer .container .footerinfo2 {
+    width: 100%;
+    }
+    #footer .footerinfo2 #emailaddress {
+    width: 65%;
+    }
+    #footer .footerinfo2 .btn {
+    width: 30%;
+    }
+    #footer .container .footerinfo3 {
+    width: 100%;
+    }
+    }
+    
+
+    @media screen and (max-width:1200px){
+        .menu-icon{
+        display: block;
+        }
+
+        .nav-links a {
+        display: none;
+        }
+
+        .modee {
+        display: flex;
+        }
+
+        .modee label {
+        margin-right: 20px;
+        }
+
+        }

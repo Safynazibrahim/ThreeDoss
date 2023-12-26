@@ -1,0 +1,17 @@
+:root:has(.modee input:checked) {
+--font-default: "Open Sans", system-ui;
+--font-primary:"Amatic SC" , sans-serif;
+--font-secondary:"Inter" , sans-serif;
+--primary: #FFCC00;
+--secondary: rgb(247, 246, 246);
+--gray: #1E2024;
+--light: var(--gray);
+}
+
+body:has(.modee input:checked) .modee .light {
+display: block;
+}
+
+body:has(.modee input:checked) .modee .dark {
+display: none;
+}
